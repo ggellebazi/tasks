@@ -16,7 +16,13 @@ function App(): React.JSX.Element {
                             src="src/assets/tumblr_daa4cf2cf75061b2b82633824baa19a3_2153ae23_1280.jpeg"
                             alt="A picture of a person's pair of boots on a rug with VHS tapes scattered on the floor"
                         />
-                        <div className="rectangle"></div>
+                        <div
+                            style={{
+                                height: "50px",
+                                width: "100px",
+                                backgroundColor: "red",
+                            }}
+                        ></div>
                         <p>
                             Hello World
                             <br />
@@ -39,9 +45,13 @@ function App(): React.JSX.Element {
                         >
                             Log Hello World
                         </Button>
-                        <div className="rectangle"></div>
-                        document.getElementById("rectangle").style.color =
-                        "red";
+                        <div
+                            style={{
+                                height: "50px",
+                                width: "100px",
+                                backgroundColor: "red",
+                            }}
+                        ></div>
                     </Col>
                 </Row>
             </Container>
