@@ -13,8 +13,8 @@ function App(): React.JSX.Element {
                 <Row>
                     <Col>
                         <img
-                            src="src/assets/tumblr_daa4cf2cf75061b2b82633824baa19a3_2153ae23_1280.jpeg"
-                            alt="A picture of a person's pair of boots on a rug with VHS tapes scattered on the floor"
+                            src="https://vman.com/wp-content/uploads/sites/2/2021/05/V-MAN-Awsten_0163.jpg"
+                            alt="A picture of a fashionable man posing for a magazine and heavily accessorized"
                         />
                         <div
                             style={{
